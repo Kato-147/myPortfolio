@@ -1,7 +1,7 @@
 const logotext = "Kato";
 const meta = {
     title: "Nguyễn Viết Toản",
-    description: "Lập trình viên top1 sever",
+    description: "Lập trình viên",
 };
 
 const introdata = {
@@ -14,6 +14,10 @@ const introdata = {
     description: "I like code, game, coffe and music",
     your_img_url: "https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/457453390_1905758816570232_625105015124947096_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE3Ad4ulSo3uIxXpsLWdKMWbF6MqfOMEs5sXoyp84wSztRjkD9tS8YxA0r6ox-e-mmxDWxDyCjPXpPzlg5McGp4&_nc_ohc=aOrzpMzmlZUQ7kNvgHLrcdQ&_nc_ht=scontent.fsgn5-12.fna&oh=00_AYDmNo-t1XiD7vBEdlzMgah_HKE4SA6oydelDzaZb8e38w&oe=66D7AAA5",
 };
+
+const resume ={
+    img: "https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/457453390_1905758816570232_625105015124947096_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE3Ad4ulSo3uIxXpsLWdKMWbF6MqfOMEs5sXoyp84wSztRjkD9tS8YxA0r6ox-e-mmxDWxDyCjPXpPzlg5McGp4&_nc_ohc=aOrzpMzmlZUQ7kNvgHLrcdQ&_nc_ht=scontent.fsgn5-12.fna&oh=00_AYDmNo-t1XiD7vBEdlzMgah_HKE4SA6oydelDzaZb8e38w&oe=66D7AAA5"
+}
 
 const dataabout = {
     title: "abit about my self",
@@ -73,65 +77,22 @@ const services = [{
 ];
 
 const dataportfolio = [{
+        title:"Ngon Restaurant (Client App)",
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Ngon Restaurant is a mobile application that allows users to scan QR codes to view the menu, place orders, and make online payments at restaurants. By using this app, users can better manage and track the dishes they have ordered.",
+        link: "https://github.com/Kato-147/ScanAppUser",
     },
     {
+        title:"Book App",
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Book app is an Android application that allows users to read books online or download books from the app to their device.",
+        link: "https://github.com/anphu123/duan1bookapp",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
+        title:"Generate QR Code",
         img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Change text to QR Code",
+        link: "https://github.com/Kato-147/GenQRcode",
     },
 ];
 
@@ -163,4 +124,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    resume
 };
