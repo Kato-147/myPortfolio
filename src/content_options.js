@@ -8,7 +8,7 @@ const introdata = {
     title: "I’m Nguyen Viet Toan",
     animated: {
         first: "I love coding",
-        second: "I can code 12h a day ",
+        second: "I can code 12hrs a day ",
         third: "I develop mobile apps",
     },
     description: "I like code, game, coffe and music",
